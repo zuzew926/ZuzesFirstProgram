@@ -20,5 +20,7 @@ public class Main {
         System.out.println("Average cost per item: $" + ((RICE_COST + (PINEAPPLE_COST * PINEAPPLE_PURCHASED + APPLES_PURCHASED * APPLE_UNIT_PRICE)) / 3));
         System.out.println("Amount tendered: $" + 40);
         System.out.println("Change: $" + (40 - TOTAL_PRICE));
+
+        System.out.println("Hey I have to make a new change");
     }
 }
